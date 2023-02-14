@@ -7,10 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 
 .navbar-container {
   display: flex;
@@ -32,14 +29,87 @@ code {
 }
 
 .nav-title {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14.46px;
   line-height: 18px;
   padding-left: 5px;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.08em;
 }
 
+.location-container {
+  display: flex;
+  padding: 40px;
+}
 
+.location-container > img {
+  height: 168px;
+  width: 125px;
+  border-radius: 9px;
+
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 19px;
+}
+.location-top {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.location-dot {
+  color: #F55A5A;
+  align-self: center;
+  width: 12px;
+}
+
+.location-location {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0.19em;
+  line-height: 12px;
+  padding-left: 0px;
+  padding-right: 12px;
+}
+
+.google-map-link {
+  align-self: center;
+  color: #918E9B;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+a:active {
+  color: lightblue;
+}
+
+a:visited {
+  color: purple;
+}
+
+.location-site {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.location-date {
+  font-weight: 700; 
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.location-paragraph {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  margin-top: 5px;
+}
 
 
